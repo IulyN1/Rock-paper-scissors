@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GUI.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GUI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{b0d9ba88-18d7-4e3b-853c-74c561a9d93f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\scissors.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\rock.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\paper.png">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
